@@ -26,7 +26,7 @@
             />
 
             <!-- Trigger Button for Filament Modal -->
-            <button type="button" onclick="openScannerModal()" class="absolute inset-y-0 right-0 flex items-center pr-3 focus:outline-none" aria-label="Scan Barcode">                
+            <button type="button" onclick="openScannerModal()" class="absolute inset-y-0 right-0 flex items-center pr-3 focus:outline-none" aria-label="Scan Barcode" style="right: 8px">                
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400 dark:text-gray-200" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                     <path d="M3 4h2v16H3V4zm4 0h2v16H7V4zm4 0h2v16h-2V4zm4 0h2v16h-2V4zm4 0h2v16h-2V4z"/>
                 </svg>
