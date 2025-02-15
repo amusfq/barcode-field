@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignTheBox\BarcodeField\Forms\Components;
+namespace amusfq\BarcodeField\Forms\Components;
 
 use Filament\Forms\Components\TextInput;
 

@@ -1,5 +1,6 @@
 {
     "name": "amusfq/barcode-field",
+    "description": "Filament barcode field",
     "keywords": [
         "amusfq",
         "laravel",
