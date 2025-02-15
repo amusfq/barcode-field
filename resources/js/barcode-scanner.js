@@ -40,7 +40,7 @@ function stopScanning() {
 function startCamera() {
   codeReader.getVideoInputDevices().then((videoInputDevices) => {
     const rearCamera = videoInputDevices.find(device => device.label.toLowerCase().includes('back') || device.label.toLowerCase().includes('rear'));
-    const selectedDeviceId = !rearCamera ? rearCamera.deviceId : videoInputDevices[0].deviceId;
+    const selectedDeviceId = rearCamera ? rearCamera.deviceId : videoInputDevices[0].deviceId;
 
     navigator.mediaDevices.getUserMedia({ video: { deviceId: { exact: selectedDeviceId } } })
       .then(function (stream) {
