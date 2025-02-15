@@ -37,7 +37,7 @@ With these features, the Filament Barcode Scanner Input package ensures an effic
 You can install the package via Composer:
 
 ```bash
-composer require designthebox/barcode-field
+composer require amusfq/barcode-field
 
 
 ```
@@ -52,7 +52,7 @@ php artisan vendor:publish --tag=barcode-scanner-assets
 Once installed, you can use the BarcodeInput component in your Filament forms:
 
 ```php
- use DesignTheBox\BarcodeField\Forms\Components\BarcodeInput;
+ use amusfq\BarcodeField\Forms\Components\BarcodeInput;
 
 // In your form definition
 BarcodeInput::make('barcode')

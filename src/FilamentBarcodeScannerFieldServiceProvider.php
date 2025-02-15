@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignTheBox\BarcodeField;
+namespace amusfq\BarcodeField;
 
-use DesignTheBox\BarcodeField\Forms\Components\BarcodeInput;
+use amusfq\BarcodeField\Forms\Components\BarcodeInput;
 use Filament\Forms\Components\Field;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -25,6 +25,7 @@ class FilamentBarcodeScannerFieldServiceProvider extends PackageServiceProvider
         // Publish the barcode scanner script
         $this->publishes([
             __DIR__.'/../resources/js/barcode-scanner.js' => public_path('vendor/barcode-field/barcode-scanner.js'),
+            __DIR__ . '/../resources/js/zxing.min.js' => public_path('vendor/barcode-field/zxing.min.js'),
         ], 'barcode-scanner-assets');
     }
 

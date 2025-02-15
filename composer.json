@@ -1,20 +1,20 @@
 {
-    "name": "designthebox/barcode-field",
+    "name": "amusfq/barcode-field",
     "keywords": [
-        "Design The Box",
+        "amusfq",
         "laravel",
         "barcode_field"
     ],
-    "homepage": "https://github.com/Design-The-Box/barcode-field",
+    "homepage": "https://github.com/amusfq/barcode-field",
     "support": {
-        "issues": "https://github.com/Design-The-Box/barcode-field/issues",
-        "source": "https://github.com/Design-The-Box/barcode-field"
+        "issues": "https://github.com/amusfq/barcode-field/issues",
+        "source": "https://github.com/amusfq/barcode-field"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Anthony Elleray",
-            "email": "anthony.elleray@designthebox.com",
+            "name": "Achmad Musyaffa Taufiqi",
+            "email": "amusfq@gmail.com",
             "role": "Developer"
         }
     ],
@@ -41,7 +41,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DesignTheBox\\BarcodeField\\": "src/"
+            "amusfq\\BarcodeField\\": "src/"
         }
     },
     "scripts": {
@@ -61,7 +61,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DesignTheBox\\BarcodeField\\FilamentBarcodeScannerFieldServiceProvider"
+                "amusfq\\BarcodeField\\FilamentBarcodeScannerFieldServiceProvider"
             ]
         }
     },

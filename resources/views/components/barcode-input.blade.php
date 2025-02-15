@@ -1,5 +1,5 @@
 <!-- Include the ZXing Library and your custom barcode scanner script -->
-<script src="https://unpkg.com/@zxing/library@latest"></script>
+<script src="{{ asset('vendor/barcode-field/zxing.min.js') }}></script>
 <script src="{{ asset('vendor/barcode-field/barcode-scanner.js') }}"></script>
 
 <div xmlns:x-filament="http://www.w3.org/1999/html">
@@ -26,16 +26,10 @@
             />
 
             <!-- Trigger Button for Filament Modal -->
-            <button type="button" onclick="openScannerModal()" class="absolute inset-y-0 right-0 flex items-center pr-3 focus:outline-none" aria-label="Scan Barcode">
-                @if($getExtraAttributes()['icon'] ?? null)
-                    <span class="text-gray-400 dark:text-gray-200">
-                        <x-dynamic-component :component="$getExtraAttributes()['icon']" class="w-5 h-5" />
-                    </span>
-                @else
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400 dark:text-gray-200" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M3 4h2v16H3V4zm4 0h2v16H7V4zm4 0h2v16h-2V4zm4 0h2v16h-2V4zm4 0h2v16h-2V4z"/>
-                    </svg>
-                @endif
+            <button type="button" onclick="openScannerModal()" class="absolute inset-y-0 right-0 flex items-center pr-3 focus:outline-none" aria-label="Scan Barcode">                
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400 dark:text-gray-200" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M3 4h2v16H3V4zm4 0h2v16H7V4zm4 0h2v16h-2V4zm4 0h2v16h-2V4zm4 0h2v16h-2V4z"/>
+                </svg>
             </button>
         </x-filament::input.wrapper>
     </div>
