@@ -1,7 +1,7 @@
 # Filament Barcode Scanner Input
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/designthebox/barcode-field.svg?style=flat-square)](https://packagist.org/packages/designthebox/barcode-field)
-[![Total Downloads](https://img.shields.io/packagist/dt/designthebox/barcode-field.svg?style=flat-square)](https://packagist.org/packages/designthebox/barcode-field)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/amusfq/barcode-field.svg?style=flat-square)](https://packagist.org/packages/amusfq/barcode-field)
+[![Total Downloads](https://img.shields.io/packagist/dt/amusfq/barcode-field.svg?style=flat-square)](https://packagist.org/packages/amusfq/barcode-field)
 
 ## Table of Contents
 - [Overview](#overview)
